@@ -93,19 +93,7 @@ form label {
     color: #333;
 }
 
-form textarea {
-    width: 100%;
-    height: 150px; 
-    padding: 12px 15px;
-    margin-bottom: 20px;
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-    background-color: #fff;
-    color: #333;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-form input {
+form textarea, form input {
     width: 100%;
     padding: 12px 15px;
     margin-bottom: 20px;
@@ -164,24 +152,6 @@ footer {
     color: #555;
 }
 
-.footer-links {
-    margin-top: 20px;
-}
-
-.footer-links a {
-    color: #555;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.footer-links a:hover {
-    color: #8f94fb;
-}
-
 @media (max-width: 768px) {
     .main-container {
         padding: 30px;
@@ -192,8 +162,5 @@ footer {
     .wallet-button, .wrap-button {
         font-size: 1rem;
         padding: 12px 20px;
-    }
-    form textarea {
-        height: 120px;
     }
 }
