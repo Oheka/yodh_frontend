@@ -104,6 +104,10 @@ form textarea, form input {
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+form textarea {
+    resize: vertical; 
+}
+
 form textarea:focus, form input:focus {
     border-color: #8f94fb;
     box-shadow: 0 0 10px rgba(143, 148, 251, 0.25);
@@ -156,9 +160,11 @@ footer {
     .main-container {
         padding: 30px;
     }
+
     header h1 {
         font-size: 2.2rem;
     }
+
     .wallet-button, .wrap-button {
         font-size: 1rem;
         padding: 12px 20px;
